@@ -17,6 +17,7 @@ app.use('/api/v1', router);
 
 const PORT = process.env.PORT || 3000;
 
+// Backend trigger for Vercel deployment
 app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
 })
