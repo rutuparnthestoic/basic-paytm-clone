@@ -3,7 +3,7 @@ import zod from 'zod';
 import { Account, User } from '../db.js';
 import { JWT_SECRET } from './../config.js';
 import jwt from 'jsonwebtoken'
-import { authMiddleware } from '../middleware.js';
+import { authMiddleware } from '../authMiddleware.js';
  
 const userRouter = express.Router(); 
 
