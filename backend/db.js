@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://admin:rsk513395001@cluster0.xmndke1.mongodb.net/paytm")
+mongoose.connect(process.env.MONGODB_URI)
 
 const userSchema = mongoose.Schema({
     firstName: {
